@@ -1,0 +1,65 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(208, 13, 203, 1) 50%, rgba(68, 0, 255, 1) 100%);
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.join {
+
+    background-color: rgb(170, 43, 160);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+    min-height: 10vh;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin {
+    margin-top: 40px;
+
+    font-size: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin img {
+    width: 3%;
+}
+
+.rank {
+    padding-left: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.rank img {
+    width: 3%;
+}
+
+.click_img {
+    width: 80%;
+    margin: auto;
+    height: 20vh;
+}
+
+.click_img img {
+    height: 40vh;
+    width: 100%;
+    object-fit: fill;
+}
